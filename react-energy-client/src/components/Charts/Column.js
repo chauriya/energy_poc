@@ -30,7 +30,7 @@ const ChartComponent = ({ data, month, year, name }) => {
         caption: `${name}'s Monthly Temprature`,
         yAxisName: 'Temperature at 2 meter (celcius)',
         yAxisNameFontSize: 16,
-        xAxisName: `${Months[parseInt(month)]} ${year}`,
+        xAxisName: `${Months[parseInt(month) - 1]} ${year}`,
         xAxisNameFontSize: 16,
         showCanvasBorder: 0,
         showAlternateHGridColor: 0,
